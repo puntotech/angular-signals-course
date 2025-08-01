@@ -57,17 +57,24 @@ export const routes: Routes = [
       ),
     pathMatch: 'full',
   },
-  /*
+
   {
     path: 'linked-signal-race-condition',
-    loadComponent: () => import('./04-linked-signal/04-linked-signal-race-condition.component').then(m => m.LinkedSignalRaceComponent),
-    pathMatch: 'full'
+    loadComponent: () =>
+      import(
+        './04-linked-signal/04-linked-signal-race-condition.component'
+      ).then((m) => m.LinkedSignalRaceComponent),
+    pathMatch: 'full',
   },
   {
     path: 'linked-signal',
-    loadComponent: () => import('./04-linked-signal/04-linked-signal.component').then(m => m.LinkedSignalComponent),
-    pathMatch: 'full'
+    loadComponent: () =>
+      import('./04-linked-signal/04-linked-signal.component').then(
+        (m) => m.LinkedSignalComponent
+      ),
+    pathMatch: 'full',
   },
+  /*
   {
     path: 'io-decorator',
     loadComponent: () => import('./05-input-output-signal/05-io-decorator.component').then(m => m.ParentDecoratorComponent),
