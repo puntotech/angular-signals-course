@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Curso de Signals de Angular 20+</title>
+  </head>
+  <body>
+    <header>
+      <h1>Curso de Signals de Angular 20+</h1>
+      <a
+        class="subscribe-btn"
+        href="https://www.youtube.com/@DotTechES"
+        target="_blank"
+        rel="noopener"
+      >
+        Suscríbete en YouTube
+      </a>
+    </header>
+
+    <main>
+      <nav class="demo-nav">
+        <!-- Change Detection -->
+        <section class="demo-section">
+          <h2>Change Detection</h2>
+          <ul>
+            <li>
+              <a [routerLink]="['/default-change-detection-indirect']"
+                >Default Change Detection indirect</a
+              >
+            </li>
+            <li>
+              <a [routerLink]="['/default-change-detection-direct']"
+                >Default Change Detection direct</a
+              >
+            </li>
+            <li>
+              <a [routerLink]="['/onpush-change-detection']"
+                >OnPush Change Detection</a
+              >
+            </li>
+            <li>
+              <a [routerLink]="['/signal-change-detection']"
+                >Signal Change Detection</a
+              >
+            </li>
+          </ul>
+        </section>
+
+        <!-- Core Primitives -->
+        <!--       <section class="demo-section">
+        <h2>Core Primitives</h2>
+        <ul>
+          <li><a [routerLink]="['/counter-signal']">Counter Signal</a></li>
+          <li><a [routerLink]="['/counter-computed']">Counter Computed Signal</a></li>
+          <li><a [routerLink]="['/counter-effect']">Counter Effect Signal</a></li>
+          <li><a [routerLink]="['/linked-signal-race-condition']">LinkedSignal Race Condition</a></li>
+          <li><a [routerLink]="['/linked-signal']">LinkedSignal</a></li>
+        </ul>
+      </section> -->
+
+        <!-- Input / Output -->
+        <!--     <section class="demo-section">
+        <h2>Input / Output</h2>
+        <ul>
+          <li><a [routerLink]="['/io-decorator']">Using Decorators</a></li>
+          <li><a [routerLink]="['/io-signal']">Using Signals</a></li>
+        </ul>
+      </section> -->
+
+        <!-- Queries -->
+        <!--       <section class="demo-section">
+        <h2>Queries</h2>
+        <ul>
+          <li><a [routerLink]="['/queries-decorator']">Query Decorator</a></li>
+          <li><a [routerLink]="['/queries-signal']">Query Signal</a></li>
+        </ul>
+      </section> -->
+
+        <!-- Model Examples -->
+        <!--     <section class="demo-section">
+        <h2>Model Examples</h2>
+        <ul>
+          <li><a [routerLink]="['/ng-model']">ng-model Example</a></li>
+          <li><a [routerLink]="['/model-signal']">Model Signal</a></li>
+          <li><a [routerLink]="['/model-io-signal']">Model Signal I/O</a></li>
+        </ul>
+      </section> -->
+
+        <!-- Router -->
+        <!--       <section class="demo-section">
+        <h2>Router</h2>
+        <ul>
+          <li><a [routerLink]="['/router-without-signal/user/3']">Without Signals</a></li>
+          <li><a [routerLink]="['/router-signal/user/3']">With Signals</a></li>
+        </ul>
+      </section> -->
+
+        <!-- Async / Resources -->
+        <!--     <section class="demo-section">
+        <h2>Async / Resources</h2>
+        <ul>
+          <li><a [routerLink]="['/async-http-client']">Async HttpClient</a></li>
+          <li><a [routerLink]="['/async-resource']">Resource Signal</a></li>
+          <li><a [routerLink]="['/async-http-resource']">Async httpResource</a></li>
+        </ul>
+      </section> -->
+
+        <!-- RxJS Interop -->
+        <!--       <section class="demo-section">
+        <h2>RxJS Interop</h2>
+        <ul>
+          <li><a [routerLink]="['/rxjs-interop-to-signal']">toSignal</a></li>
+          <li><a [routerLink]="['/rxjs-interop-to-observable']">toObservable</a></li>
+          <li><a [routerLink]="['/rxjs-interop-rx-resource']">rxResource</a></li>
+          <li><a [routerLink]="['/rxjs-interop-take-until-destroyed']">takeUntilDestroyed</a></li>
+          <li><a [routerLink]="['/rxjs-interop-output']">Output Examples</a></li>
+        </ul>
+      </section> -->
+      </nav>
+
+      <router-outlet></router-outlet>
+    </main>
+
+    <footer>
+      © 2025 DotTechES &middot; Aprende Angular Signals.
+      <a
+        href="https://www.youtube.com/@DotTechES"
+        target="_blank"
+        rel="noopener"
+        >Visita nuestro canal</a
+      >
+    </footer>
+  </body>
+</html>

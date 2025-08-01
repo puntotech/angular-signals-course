@@ -1,0 +1,102 @@
+   /* Reset rápido */
+   * { margin: 0; padding: 0; box-sizing: content-box; }
+
+   body {
+     display: grid;
+     grid-template-rows: auto 1fr auto;
+
+     font-family: Arial, sans-serif;
+     line-height: 1.6;
+     background: #f5f7fa;
+     color: #333;
+     height: 100vh;
+     width: 100vw;
+   }
+
+   header {
+     background: #24292e;
+     color: #fff;
+     padding: 1rem 2rem;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+
+    h1 {
+      font-size: 1.5rem;
+    }
+
+    a.subscribe-btn {
+      background: #ff0000;
+      color: #fff;
+      text-decoration: none;
+      padding: 0.5rem 1rem;
+      border-radius: 0.25rem;
+      font-weight: bold;
+      transition: background 0.2s ease;
+    }
+
+    a.subscribe-btn:hover {
+      background: #cc0000;
+    }
+
+   }
+
+   main {
+     overflow: auto;
+     padding: 2rem;
+     margin: 0 auto;
+     width: 85%;
+   }
+
+   .demo-nav {
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+     gap: 1.5rem;
+     margin-bottom: 2rem;
+   }
+   .demo-section {
+     background: #fff;
+     border: 1px solid #e1e1e1;
+     border-radius: 0.5rem;
+     box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+     padding: 1rem;
+     transition: transform 0.2s;
+   }
+   .demo-section:hover {
+     transform: translateY(-4px);
+   }
+   .demo-section h2 {
+     font-size: 1.125rem;
+     margin-bottom: 0.75rem;
+     border-bottom: 1px solid #e1e1e1;
+     padding-bottom: 0.25rem;
+   }
+   .demo-section ul {
+     list-style: none;
+   }
+   .demo-section li + li {
+     margin-top: 0.5rem;
+   }
+   .demo-section a {
+     text-decoration: none;
+     color: #0366d6;
+     font-weight: 500;
+   }
+   .demo-section a:hover {
+     text-decoration: underline;
+   }
+
+   footer {
+     background: #24292e;
+     color: #bbb;
+     text-align: center;
+     padding: 1rem;
+     font-size: 0.9rem;
+
+     a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+   }
