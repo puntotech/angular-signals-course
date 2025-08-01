@@ -41,11 +41,15 @@ export const routes: Routes = [
       ),
     pathMatch: 'full',
   },
-  /*{
+  {
     path: 'counter-computed',
-    loadComponent: () => import('./02-counter-computed/02-counter-computed.component').then(m => m.CounterComputedComponent),
-    pathMatch: 'full'
+    loadComponent: () =>
+      import('./02-counter-computed/02-counter-computed.component').then(
+        (m) => m.CounterComputedComponent
+      ),
+    pathMatch: 'full',
   },
+  /*
   {
     path: 'counter-effect',
     loadComponent: () => import('./03-counter-effect/03-counter-effect.component').then(m => m.CounterEffectComponent),
