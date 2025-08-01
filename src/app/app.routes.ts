@@ -74,17 +74,23 @@ export const routes: Routes = [
       ),
     pathMatch: 'full',
   },
-  /*
   {
     path: 'io-decorator',
-    loadComponent: () => import('./05-input-output-signal/05-io-decorator.component').then(m => m.ParentDecoratorComponent),
-    pathMatch: 'full'
+    loadComponent: () =>
+      import('./05-input-output-signal/05-io-decorator.component').then(
+        (m) => m.ParentDecoratorComponent
+      ),
+    pathMatch: 'full',
   },
   {
     path: 'io-signal',
-    loadComponent: () => import('./05-input-output-signal/05-io-signal.component').then(m => m.ParentSignalsComponent),
-    pathMatch: 'full'
+    loadComponent: () =>
+      import('./05-input-output-signal/05-io-signal.component').then(
+        (m) => m.ParentSignalsComponent
+      ),
+    pathMatch: 'full',
   },
+  /*
   {
     path: 'queries-decorator',
     loadComponent: () => import('./07-queries-signal/07-queries-decorator.component').then(m => m.QueriesDecoratorComponent),
