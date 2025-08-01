@@ -33,12 +33,15 @@ export const routes: Routes = [
       ).then((m) => m.ParentComponent),
     pathMatch: 'full',
   },
-  /*  {
-    path: 'counter-signal',
-    loadComponent: () => import('./01-counter-signal/01-counter-signal.component').then(m => m.SignalsComponent),
-    pathMatch: 'full'
-  },
   {
+    path: 'counter-signal',
+    loadComponent: () =>
+      import('./01-counter-signal/01-counter-signal.component').then(
+        (m) => m.SignalsComponent
+      ),
+    pathMatch: 'full',
+  },
+  /*{
     path: 'counter-computed',
     loadComponent: () => import('./02-counter-computed/02-counter-computed.component').then(m => m.CounterComputedComponent),
     pathMatch: 'full'
