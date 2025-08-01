@@ -49,12 +49,15 @@ export const routes: Routes = [
       ),
     pathMatch: 'full',
   },
-  /*
   {
     path: 'counter-effect',
-    loadComponent: () => import('./03-counter-effect/03-counter-effect.component').then(m => m.CounterEffectComponent),
-    pathMatch: 'full'
+    loadComponent: () =>
+      import('./03-counter-effect/03-counter-effect.component').then(
+        (m) => m.CounterEffectComponent
+      ),
+    pathMatch: 'full',
   },
+  /*
   {
     path: 'linked-signal-race-condition',
     loadComponent: () => import('./04-linked-signal/04-linked-signal-race-condition.component').then(m => m.LinkedSignalRaceComponent),
