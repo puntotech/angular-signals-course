@@ -128,15 +128,21 @@ export const routes: Routes = [
       ),
     pathMatch: 'full',
   },
-  /*
   {
     path: 'router-without-signal/user/:id',
-    loadComponent: () => import('./08-router/08-router-without-signal.component').then(m => m.UserClassicComponent),
+    loadComponent: () =>
+      import('./08-router/08-router-without-signal.component').then(
+        (m) => m.UserClassicComponent
+      ),
   },
   {
     path: 'router-signal/user/:id',
-    loadComponent: () => import('./08-router/08-router-signal.component').then(m => m.UserSignalsComponent),
+    loadComponent: () =>
+      import('./08-router/08-router-signal.component').then(
+        (m) => m.UserSignalsComponent
+      ),
   },
+  /*
   {
     path: 'async-http-client',
     loadComponent: () => import('./09-async/09-async-http-client.component').then(m => m.ClassicTodosComponent),
