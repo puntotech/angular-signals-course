@@ -142,19 +142,29 @@ export const routes: Routes = [
         (m) => m.UserSignalsComponent
       ),
   },
-  /*
+
   {
     path: 'async-http-client',
-    loadComponent: () => import('./09-async/09-async-http-client.component').then(m => m.ClassicTodosComponent),
+    loadComponent: () =>
+      import('./09-async/09-async-http-client.component').then(
+        (m) => m.ClassicTodosComponent
+      ),
   },
   {
     path: 'async-http-resource',
-    loadComponent: () => import('./09-async/09-async-http-resource.component').then(m => m.HttpResourceTodosComponent),
+    loadComponent: () =>
+      import('./09-async/09-async-http-resource.component').then(
+        (m) => m.HttpResourceTodosComponent
+      ),
   },
   {
     path: 'async-resource',
-    loadComponent: () => import('./09-async/09-async-resource.component').then(m => m.ResourceTodosComponent),
+    loadComponent: () =>
+      import('./09-async/09-async-resource.component').then(
+        (m) => m.ResourceTodosComponent
+      ),
   },
+  /*
   {
     path: 'rxjs-interop-to-signal',
     loadComponent: () => import('./10-rxjs-interop/10-rxjs-interop-to-signal.component').then(m => m.TickerSignalsComponent),
