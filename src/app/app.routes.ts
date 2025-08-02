@@ -111,18 +111,24 @@ export const routes: Routes = [
         (m) => m.ModelIOSignalComponent
       ),
   },
-  /*
+
   {
     path: 'queries-decorator',
-    loadComponent: () => import('./07-queries-signal/07-queries-decorator.component').then(m => m.QueriesDecoratorComponent),
-    pathMatch: 'full'
+    loadComponent: () =>
+      import('./07-queries-signal/07-queries-decorator.component').then(
+        (m) => m.QueriesDecoratorComponent
+      ),
+    pathMatch: 'full',
   },
   {
     path: 'queries-signal',
-    loadComponent: () => import('./07-queries-signal/07-queries-signal.component').then(m => m.QueriesSignalsComponent),
-    pathMatch: 'full'
+    loadComponent: () =>
+      import('./07-queries-signal/07-queries-signal.component').then(
+        (m) => m.QueriesSignalsComponent
+      ),
+    pathMatch: 'full',
   },
-  
+  /*
   {
     path: 'router-without-signal/user/:id',
     loadComponent: () => import('./08-router/08-router-without-signal.component').then(m => m.UserClassicComponent),
