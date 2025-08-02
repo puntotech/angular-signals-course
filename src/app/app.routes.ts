@@ -90,6 +90,27 @@ export const routes: Routes = [
       ),
     pathMatch: 'full',
   },
+  {
+    path: 'ng-model',
+    loadComponent: () =>
+      import('./06-double-data-binding/06-ng-model.component').then(
+        (m) => m.ClassicTwoWayComponent
+      ),
+  },
+  {
+    path: 'model-signal',
+    loadComponent: () =>
+      import('./06-double-data-binding/06-model-signal.component').then(
+        (m) => m.SignalsTwoWayComponent
+      ),
+  },
+  {
+    path: 'model-io-signal',
+    loadComponent: () =>
+      import('./06-double-data-binding/06-model-io-signal.component').then(
+        (m) => m.ModelIOSignalComponent
+      ),
+  },
   /*
   {
     path: 'queries-decorator',
@@ -101,18 +122,7 @@ export const routes: Routes = [
     loadComponent: () => import('./07-queries-signal/07-queries-signal.component').then(m => m.QueriesSignalsComponent),
     pathMatch: 'full'
   },
-  {
-    path: 'ng-model',
-    loadComponent: () => import('./06-double-data-binding/06-ng-model.component').then(m => m.ClassicTwoWayComponent),
-  },
-  {
-    path: 'model-signal',
-    loadComponent: () => import('./06-double-data-binding/06-model-signal.component').then(m => m.SignalsTwoWayComponent),
-  },
-  {
-    path: 'model-io-signal',
-    loadComponent: () => import('./06-double-data-binding/06-model-io-signal.component').then(m => m.ModelIOSignalComponent),
-  },
+  
   {
     path: 'router-without-signal/user/:id',
     loadComponent: () => import('./08-router/08-router-without-signal.component').then(m => m.UserClassicComponent),
