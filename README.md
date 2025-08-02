@@ -63,3 +63,14 @@ ng serve
 
 🎓 **Happy learning!**  
 If you find this helpful, consider starring ⭐ the repository or sharing it with your Angular community!
+
+## 🤝 Let's Collaborate
+
+Are you interested in a **live workshop**, a **tech talk**, or a **custom Angular training session** for your team or event?
+
+I’m available for collaborations, corporate training, conferences, and content creation opportunities related to **Angular**, **modern web development**, and **software engineering best practices**.
+
+If you'd like to discuss a potential collaboration, feel free to reach out via the contact form on my website:  
+🔗 [carloscaballero.io](https://carloscaballero.io)
+
+Let’s build something great together!
