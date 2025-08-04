@@ -164,26 +164,40 @@ export const routes: Routes = [
         (m) => m.ResourceTodosComponent
       ),
   },
-  /*
+
   {
     path: 'rxjs-interop-to-signal',
-    loadComponent: () => import('./10-rxjs-interop/10-rxjs-interop-to-signal.component').then(m => m.TickerSignalsComponent),
+    loadComponent: () =>
+      import('./10-rxjs-interop/10-rxjs-interop-to-signal.component').then(
+        (m) => m.TickerSignalsComponent
+      ),
   },
   {
     path: 'rxjs-interop-to-observable',
-    loadComponent: () => import('./10-rxjs-interop/10-rxjs-interop-to-observable.component').then(m => m.SignalToRxJSComponent),
+    loadComponent: () =>
+      import('./10-rxjs-interop/10-rxjs-interop-to-observable.component').then(
+        (m) => m.SignalToRxJSComponent
+      ),
   },
   {
     path: 'rxjs-interop-rx-resource',
-    loadComponent: () => import('./10-rxjs-interop/10-rxjs-interop-rx-resource-component').then(m => m.RxResourceTodosComponent),
+    loadComponent: () =>
+      import('./10-rxjs-interop/10-rxjs-interop-rx-resource-component').then(
+        (m) => m.RxResourceTodosComponent
+      ),
   },
   {
     path: 'rxjs-interop-take-until-destroyed',
-    loadComponent: () => import('./10-rxjs-interop/10-rxjs-interop-rx-take-until-destroyed.component').then(m => m.TakeUntilDestroyedComponent),
+    loadComponent: () =>
+      import(
+        './10-rxjs-interop/10-rxjs-interop-rx-take-until-destroyed.component'
+      ).then((m) => m.TakeUntilDestroyedComponent),
   },
   {
     path: 'rxjs-interop-output',
-    loadComponent: () => import('./10-rxjs-interop/10-rxjs-interop-output.component').then(m => m.TickDemoComponent),
-  }
- */
+    loadComponent: () =>
+      import('./10-rxjs-interop/10-rxjs-interop-output.component').then(
+        (m) => m.TickDemoComponent
+      ),
+  },
 ];
