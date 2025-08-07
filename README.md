@@ -20,7 +20,7 @@ Each lesson corresponds to a folder inside `src/app`, named numerically (`00`, `
 
 | #  | Lesson Description                                                                 | Code Path                          | Video         |
 |:--:|-------------------------------------------------------------------------------------|:----------------------------------:|:--------------|
-| 00 | [Intro to Change Detection](src/app/00-change-detection/README.md)                 | `src/app/00-change-detection`      | (coming soon) |
+| 00 | [Intro to Change Detection](src/app/00-change-detection/README.md)                 | `src/app/00-change-detection`      | [Link](https://youtu.be/rr0AstaFLV8?si=PmZ4skLuZ2s6iyww) |
 | 01 | [Writable & Readonly Signals](src/app/01-counter-signal/README.md)                 | `src/app/01-counter-signal`        | (coming soon) |
 | 02 | [Computed Signals](src/app/02-counter-computed/README.md)                          | `src/app/02-counter-computed`      | (coming soon) |
 | 03 | [Effects and Side Effects](src/app/03-counter-effect/README.md)                    | `src/app/03-counter-effect`        | (coming soon) |
