@@ -59,6 +59,18 @@ ng serve
 - Each folder contains a `README.md` with explanations and live code.
 - Follow the video series to see real-time examples and walkthroughs.
 
+
+--- 
+## 🔍 Comparative Overview of Angular Signal Primitives
+
+To deepen your understanding of Angular's reactive primitives, we offer a detailed comparative guide covering the core Signals API and experimental extensions. This guide explains their reactivity granularity, mutation capabilities, execution timing, typical use cases, and maturity status.
+
+You can explore this comprehensive comparison and technical explanations in the markdown file:
+
+📄 [Angular Signal Primitives Comparative Guide](comparative-primitives.md)
+
+This resource will help you choose the right primitive for your specific state management needs and leverage Angular's full reactive power.
+
 ---
 
 🎓 **Happy learning!**  
