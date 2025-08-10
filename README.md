@@ -21,8 +21,8 @@ Each lesson corresponds to a folder inside `src/app`, named numerically (`00`, `
 | #  | Lesson Description                                                                 | Code Path                          | Video         |
 |:--:|-------------------------------------------------------------------------------------|:----------------------------------:|:--------------|
 | 00 | [Intro to Change Detection](src/app/00-change-detection/README.md)                 | `src/app/00-change-detection`      | [Link](https://youtu.be/rr0AstaFLV8?si=PmZ4skLuZ2s6iyww) |
-| 01 | [Writable & Readonly Signals](src/app/01-counter-signal/README.md)                 | `src/app/01-counter-signal`        | (coming soon) |
-| 02 | [Computed Signals](src/app/02-counter-computed/README.md)                          | `src/app/02-counter-computed`      | (coming soon) |
+| 01 | [Writable & Readonly Signals](src/app/01-counter-signal/README.md)                 | `src/app/01-counter-signal`        | [Link](https://www.youtube.com/watch?v=BcpAFtGm2FY&list=PLcrGLrk890EFdWH31N-R8ymPxCGyi29w0&index=2) |
+| 02 | [Computed Signals](src/app/02-counter-computed/README.md)                          | `src/app/02-counter-computed`      | [Link](https://www.youtube.com/watch?v=-z2hbTBAvdc&list=PLcrGLrk890EFdWH31N-R8ymPxCGyi29w0&index=3&t=2s) |
 | 03 | [Effects and Side Effects](src/app/03-counter-effect/README.md)                    | `src/app/03-counter-effect`        | (coming soon) |
 | 04 | [LinkedSignal API](src/app/04-linked-signal/README.md)                             | `src/app/04-linked-signal`         | (coming soon) |
 | 05 | [Input/Output with Signals](src/app/05-input-output-signal/README.md)              | `src/app/05-input-output-signal`   | (coming soon) |
